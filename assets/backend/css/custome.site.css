@@ -1,0 +1,15 @@
+.page-login-form {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;    
+}
+    .page-login-form .input-group-addon {
+        background-color: #fff;
+    }
+    .page-login-form .form-control {
+        color: #000;
+        height: 40px;
+    }
+
+.after-run .site-menubar-unfold .fa {
+    margin-right: 16px;
+}

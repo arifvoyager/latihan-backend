@@ -1,0 +1,110 @@
+.content {
+    padding:20px;
+    /*width:1010px;*/
+    position:relative;
+    background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.lang-active{
+  font-weight:bold;
+
+}
+
+.justify {
+	text-align: center;
+	width: 50%;
+	position: center;
+}
+
+.nunito { 
+	font-family: 'Nunito'; 
+}
+
+.montserrat {
+	font-family: 'Montserrat';
+}
+
+.bgphoto{
+  background: url('../img/brand/bg.png')center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 1001px) {
+  .bgphotod{
+    height: 400px;      
+    background:url('../img/brand/FiturBaru.png') center bottom no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  
+
+  #servicesimg:before{
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 700px;
+    background:url('../img/Tracking.png') left bottom no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+
+  #produkphoto:before{
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 600px;
+    background:url('../img/ProdPhoto.png') left bottom no-repeat,
+              url('../img/ProdPhoto2.png')right bottom no-repeat ;
+              
+    -webkit-background-size: 50% 100%,50% 100%;
+    -moz-background-size: 50% 100%,50% 100%;
+    -o-background-size: 50% 100%,50% 100%;
+    background-size: 50% 100%,50% 100%;
+  }   
+ } 
+@media (max-width: 1000px) {
+  .bgphotod{
+    background:url('../img/brand/FiturMobile.png') center bottom no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+  
+  #servicesimg:before{
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 700px;
+    background:url('../img/TrackingMobile.png') left center no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+  }
+
+  #produkphoto:before{
+    position: relative;
+    content: "";
+    width: 100%;
+    height: 250px;
+    background:url('../img/ProdPhoto.png') left bottom no-repeat,
+              url('../img/ProdPhoto2.png')right bottom no-repeat ;
+              
+    -webkit-background-size: 50% 100%,50% 100%;
+    -moz-background-size: 50% 100%,50% 100%;
+    -o-background-size: 50% 100%,50% 100%;
+    background-size: 50% 100%,50% 100%;
+  } 
+  
+ }
+
+

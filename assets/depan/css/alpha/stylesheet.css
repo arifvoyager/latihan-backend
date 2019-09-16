@@ -1,0 +1,543 @@
+/*
+webkit
+*/
+
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* 
+  Fonts
+*/
+@font-face {
+  font-family: 'Proxima-black';
+  src: url('../../fonts/proximanova-black-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-extra-bold';
+  src: url('../../fonts/proximanova-extrabld-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-light';
+  src: url('../../fonts/proximanova-light-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-regular';
+  src: url('../../fonts/proximanova-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-semibold';
+  src: url('../../fonts/proximanova-semibold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url('../../img/utama.png')center;  /*background: url('../../img/hero-bg.jpg')center;*/
+    background-size: cover;
+    position: relative;
+	opacity : 1;
+	filter: alpha(opacity=50);	
+  }
+
+
+  
+  
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .navbar {
+    background-color: rgba(16, 31, 49, 0.267);
+    border-radius: 25px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    padding: 0 1rem;
+    margin-top: 3vh;
+    transition-property: 'margin-right','margin-left','margin-top','border-radius','background-color';
+    transition: 300ms;
+    color:white;
+  }
+
+  .nav-bar-opened{
+    background-color: rgba(16, 31, 49, 0.699) !important;
+  }
+
+  .nav-link {
+    color:white !important;
+  }
+
+  .scrolledNav {
+    border-radius: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    background-color: rgba(16, 31, 49, 0.562);
+  }
+
+  .navbar .navbar-nav > li > a {
+    line-height: 3rem;
+    color: white;
+  }
+
+  .navbar .navbar-nav > li > a:hover, 
+  .navbar .navbar-nav > li > a:focus,
+  .navbar .navbar-nav > li > .active > a{
+    background-color: rgba(255, 255, 255, 0.301);
+    transition: 200ms;
+    color: white;
+  }
+  
+  #hero .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Proxima-regular',sans-serif;
+  }
+  
+  #hero h1 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+    
+  }
+
+  #hero h1 img{
+    width:30rem;
+    height:100%;
+    align-self: center;
+  }
+  
+  @media (max-width: 768px) {
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h1 img{
+      width:15rem;
+      height:100%;
+      align-self: center;
+    }
+  }
+  
+  #hero h4 {
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    #hero h4 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 50px; 
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #2dc997;
+    border: 2px solid #2dc997;
+  }
+  
+
+  /*------------------------------------------------
+  Footer
+  ------------------------------------------------*/
+  
+  footer {
+    background-color: rgb(16, 31, 49);
+    color:white;
+    font-family: 'Proxima-regular',sans-serif;
+  }
+
+  footer .social-links a:hover {
+    background: #000000b0;
+    color: #fff;
+    transition: 150ms;
+  }
+
+  footer .social-links {
+    padding-bottom: 20px;
+  }
+  
+  footer .social-links a {
+    font-size: 20px;
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    color: rgb(16, 31, 49);
+    line-height: 1;
+    padding: 9px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+  }
+
+  footer .info i {
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    margin-right: 5px;
+    padding-top: 2px;
+  }
+
+  footer .copyright {
+    text-align: center;
+  }
+
+/*----------------------------
+#Beranda-Tentang
+-------------------------*/
+
+#beranda-tentang {
+  background-color: white;
+  padding-top: 6vh;
+  font-family: 'Proxima-regular', sans-serif;
+  width: 100%;
+  padding-bottom: 6vh;
+}
+
+@media (max-width: 768px) {
+  .beranda-tentang-text{
+    margin-top:7vh;
+  }
+}
+
+
+/*----------------------------
+#Beranda-Fitur
+-------------------------*/
+
+#beranda-fitur {
+  background-image: linear-gradient(to right,rgba(16, 31, 49, 0.377),rgb(16, 31, 49));
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  color: white;
+  font-family: 'Proxima-regular',sans-serif;
+}
+
+.btn-beranda {
+  background-color: transparent;
+  border-color: white;
+  color:white
+}
+
+.btn-beranda:hover {
+  background-color: white;
+  border-color: white;
+  color:black;
+}
+
+.btn-beranda-inv {
+  background-color: transparent;
+  border-color: rgb(0, 0, 0);
+  color:rgb(0, 0, 0)
+}
+
+.btn-beranda-inv:hover {
+  background-color: rgb(155, 155, 155);
+  border-color: rgb(255, 255, 255);
+  color:white;
+}
+
+/*----------------------------
+#Beranda-partner
+-------------------------*/
+
+#beranda-partner {
+  background-color: white;
+  font-family: 'Proxima-regular',sans-serif;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+#beranda-partner .container-fluid .section-title{
+  background-color:white;
+  text-align: center;
+  font-family: 'Proxima-regular',sans-serif;
+  
+}
+
+/*-----------
+page produk
+-------------*/
+.hero-produk{
+    background: url('../../img/brand/bg.png') center no-repeat fixed !important;
+    background-size: cover !important;
+}
+/*------------
+#produk tracker
+---------------*/
+#produk-tracker {
+  padding-top:10vh;
+  padding-bottom: 10vh;
+  font-family: 'Comfortaa'
+}
+
+#produk-tracker .container-fluid {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.produk-tracker-fitur {
+  padding-top: vh;
+}
+
+@media (max-width: 768px) {
+  .produk-tracker-fitur {
+    padding-top: 0vh;
+  }
+}
+
+#produk-tracker .media {
+  margin-top:4vh;
+}
+
+/*-------------------
+Break
+----------------*/
+
+#produk-documentation-break {
+  margin-top: 3vh;
+  height:30vh;
+  position: relative;
+}
+
+#produk-documentation-break img{
+  height:30vh;
+}
+
+#produk-documentation-break .overlay {
+  background-color:rgba(16, 31, 49, 0.096);
+  height:30vh;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+
+}
+
+/*---------------------------
+Produk Node
+--------------------------*/
+
+#produk-node {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+#produk-node .produk-node-text{
+  font-family: 'Comfortaa';
+  font-size: 26px;
+  padding-top: 10vh;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+/*-----------------------------
+Produk App
+------------------------*/
+
+#produk-app {
+  padding-top:10vh;
+  padding-bottom:10vh;
+  font-family: 'Comfortaa';
+}
+
+#produk-app .app-title{
+  padding-top:2vh;
+  padding-bottom:2vh;
+  font-size: 26px;
+  text-align: center;
+}
+
+#produk-app img {
+  width: auto;
+  height: 12vh;
+}
+
+#produk-app figure {
+  width:13vw;
+}
+
+/*---------------------
+Produk Timeline
+-------------------------*/
+#produk-timeline {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-family: "Comfortaa";
+  background-image: url('../../img/Fitur.png');
+  background-size: cover;
+}
+
+#produk-timeline .section-title{
+  margin-bottom:2vh;
+  color:white;
+}
+
+#produk-timeline .timeline__content {
+  color:white;
+  background-color: rgba(16, 31, 49, 0.705);
+  border: 0px;
+}
+
+#produk-timeline .text-muted {
+  font-size: 1rem;
+  color: rgb(88, 88, 88);
+}
+
+/*----------------------------------------------------------
+TENTANG PERUSAHAAN
+----------------------------------------------------------*/
+
+.hero-about{
+  background: url('../../img/about/background.jpg') center no-repeat fixed !important;
+  background-size: cover !important;
+}
+
+#about-visi {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-family: 'Comfortaa';
+}
+
+#about-visi h1{
+  font-family: 'Proxima-regular';
+}
+
+#about-latar {
+  padding-bottom: 10vh;
+  font-family: 'Comfortaa';
+}
+
+#about-solution {
+  padding-bottom: 10vh;
+  font-family: 'Comfortaa';
+}
+
+#about-team{
+  padding-bottom: 10vh;
+  font-family: 'Comfortaa';
+}
+
+#about-team .row{
+  padding-top:3vh;
+  padding-bottom: 5vh;
+}
+
+.team-badge img{
+  max-width: 200px;
+  padding-bottom: 2vh;
+}
+
+.team-badge .h4 {
+  margin-bottom: 0;
+}
+
+.team-badge .lead {
+  font-size: 0.75rem;
+}
+
+#about-team .picture-container{
+  position: relative;
+}
+
+#about-team .badge-primary {
+  position: absolute;
+  font-weight:100;
+  bottom:3em;
+  right:4em;
+
+}
+
+#about-team .text-wrap {
+  max-width: 200px;
+}
+
+#about-team i{
+  font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+  .customer-logos {
+    max-width:100%;
+  }
+  
+  .achievement-logos {
+    max-width:100%;
+  }
+  
+  .companyLogo {
+    height: 200px;
+    margin-right: 1vw;
+  }
+}
+
+.customer-logos {
+  max-width:100%;
+}
+
+.achievement-logos {
+  max-width:100%;
+}
+
+.companyLogo {
+  height:20vh;
+  margin-right: 1vw;
+}
