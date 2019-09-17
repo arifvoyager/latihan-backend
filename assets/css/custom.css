@@ -1,0 +1,11 @@
+.dropdown-menu {
+	background-color: rgba(16, 31, 49, 0.267) !important;
+}
+
+.dropdown-item {
+	color: white !important;
+}
+
+.dropdown-item:hover {
+	color: black !important;
+}

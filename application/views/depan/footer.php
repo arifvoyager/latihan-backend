@@ -5,9 +5,9 @@
                 <div class="box">
                 <h5 style="margin-top:0px">Contact Us</h4>
                 <div class="social-links">
-                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="https://twitter.com/FilantropiINA" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/FilantropiIndonesia" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/filantropiindonesia/" class="instagram"><i class="fa fa-instagram"></i></a>
                     <a href="#" class="google-plus"><i class="fa fa-telegram"></i></a>
                     <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
                     <a href="#" class="linkedin"><i class="fa fa-whatsapp"></i></a>
@@ -49,15 +49,15 @@
 </body>
 
     <!-- Jquery 3.3.1 -->
-    <script src="<?php echo base_url('')?>assets/depan/vendor/jquery331/jquery.min.js"></script>
-    <script src="<?php echo base_url('')?>assets/depan/vendor/popper114/popper.min.js"></script>
-    <script src="<?php echo base_url('')?>assets/depan/vendor/bootstrap431/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url('')?>assets/depan/vendor/wow/wow.min.js"></script>
+    <script src="<?php echo base_url('')?>assets/vendor/jquery331/jquery.min.js"></script>
+    <script src="<?php echo base_url('')?>assets/vendor/popper114/popper.min.js"></script>
+    <script src="<?php echo base_url('')?>assets/vendor/bootstrap431/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url('')?>assets/vendor/wow/wow.min.js"></script>
     <script>
     new WOW().init();
     </script>
-    <script src="<?php echo base_url('')?>assets/depan/js/alpha/custom.script.js"></script>
-    <script src="<?php echo base_url('')?>assets/depan/vendor/slick/slick.min.js"></script>
+    <script src="<?php echo base_url('')?>assets/js/alpha/custom.script.js"></script>
+    <script src="<?php echo base_url('')?>assets/vendor/slick/slick.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131577059-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];

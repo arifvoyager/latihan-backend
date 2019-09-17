@@ -1,7 +1,7 @@
 <section id="hero">
         <div class="hero-container">
-            <h1><img src="<?php echo base_url('')?>assets/depan/img/brand/fi-logo.png"></h1>
-            <h4><b> Perhimpunan Filantropi Indonesia  <br> Meningkatkan jumlah dan mutu lembaga filantropi di Indonesia sebagai sarana dalam memperkuat peran masyarakat sipil di Tanah Air untuk pembangunan sosial, kemanusiaan, dan lingkungan melalui penguatan infrastruktur kelembagaan serta pengembangan ruang gerak sektor filantropi maupun sektor nirlaba</b></h4>
+            <h1><img src="<?php echo base_url('')?>assets/img/brand/fi-logo.png"></h1>
+            <h4 style="margin-right: 60px; margin-left:60px"><b> Perhimpunan Filantropi Indonesia  <br> Meningkatkan jumlah dan mutu lembaga filantropi di Indonesia sebagai sarana dalam memperkuat peran masyarakat sipil di Tanah Air untuk pembangunan sosial, kemanusiaan, dan lingkungan melalui penguatan infrastruktur kelembagaan serta pengembangan ruang gerak sektor filantropi maupun sektor nirlaba</b></h4>
             <a href=" "  target="_blank" role="button" aria-pressed="true"
                 class="btn btn-beranda btn-lg rounded-pill">Menjadi Anggota</a>
         </div>
@@ -30,7 +30,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="<?php echo base_url('')?>assets/depan/img/beranda/undp.jpg" class="d-block"
+                                <img src="<?php echo base_url('')?>assets/img/beranda/undp.jpg" class="d-block"
                                     style="height:50vh;width:auto;margin:auto;" />
                             </div>
                             <div class="col-md-6">
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 order-first order-md-2">
-                                <img src="<?php echo base_url('')?>assets/depan/img/beranda/ford.png" class="d-block"
+                                <img src="<?php echo base_url('')?>assets/img/beranda/ford.png" class="d-block"
                                     style="height:50vh;width:auto;margin:auto;" />
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 order-first order-md-2">
-                                <img src="<?php echo base_url('')?>assets/depan/img/beranda/wings.png" class="d-block"
+                                <img src="<?php echo base_url('')?>assets/img/beranda/wings.png" class="d-block"
                                     style="height:50vh;width:auto;margin:auto;" />
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6 order-first order-md-2">
-                                <img src="<?php echo base_url('')?>assets/depan/img/beranda/ford.png" class="d-block"
+                                <img src="<?php echo base_url('')?>assets/img/beranda/ford.png" class="d-block"
                                     style="height:50vh;width:auto;margin:auto;" />
                             </div>
                         </div>
@@ -106,7 +106,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-6" style="height:50vh">
-                                <img src="<?php echo base_url('')?>assets/depan/img/beranda/sgdpp.png" class="d-block mx-auto"
+                                <img src="<?php echo base_url('')?>assets/img/beranda/sgdpp.png" class="d-block mx-auto"
                                     style="height:40vh;width:auto;margin-top:5vh;" />
                             </div>
                             <div class="col-md-6">
@@ -152,12 +152,12 @@
             <div style="display:flex;margin-top:5vh;">
         <table>
             <tr> 
-            <th><a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/ikon1.png" width="200px" height="200px"></a></th>
-            <th style="text-align: center;"><a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/ikon2.png" width="200px" height="200px"></a></th>
-            <th style="text-align: center;"><a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/ikon3.png" width="200px" height="200px"></a></th>
-            <th style="text-align: center;"><a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/ikon4.png" width="200px" height="200px"></a></th>
-            <th style="text-align: center;"> <a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/ikon5.png" width="200px" height="200px"></a></th>
-            <th style="text-align: center;"><a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/ikon6.png" width="200px" height="200px"></a></th> 
+            <th><a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/ikon1.png" width="200px" height="200px"></a></th>
+            <th style="text-align: center;"><a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/ikon2.png" width="200px" height="200px"></a></th>
+            <th style="text-align: center;"><a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/ikon3.png" width="200px" height="200px"></a></th>
+            <th style="text-align: center;"><a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/ikon4.png" width="200px" height="200px"></a></th>
+            <th style="text-align: center;"> <a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/ikon5.png" width="200px" height="200px"></a></th>
+            <th style="text-align: center;"><a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/ikon6.png" width="200px" height="200px"></a></th> 
 
                                                                     
             </tr>
@@ -171,10 +171,10 @@
         </tr>
             <tr>
     <th></th>
-            <th>   <a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/ikon7.png" width="200px" height="200px"></a></th>
-            <th style="text-align: center;">   <a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/update.png" width="200px" height="200px"></a></th>
-            <th style="text-align: center;">   <a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/ikon9.png" width="200px" height="200px"></a></th>
-            <th style="text-align: center;">   <a href="#"><img  src="<?php echo base_url('')?>assets/depan/img/kluster/ikon10.png" width="200px" height="200px"></a></th>
+            <th>   <a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/ikon7.png" width="200px" height="200px"></a></th>
+            <th style="text-align: center;">   <a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/update.png" width="200px" height="200px"></a></th>
+            <th style="text-align: center;">   <a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/ikon9.png" width="200px" height="200px"></a></th>
+            <th style="text-align: center;">   <a href="#"><img  src="<?php echo base_url('')?>assets/img/kluster/ikon10.png" width="200px" height="200px"></a></th>
             </tr>
             <tr>
                 <td></td>
@@ -200,16 +200,16 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/act.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/act.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/ancora.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/ancora.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/badan-waqaf-alquran.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/badan-waqaf-alquran.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/bakti-barito.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/bakti-barito.png" width="100px" height="100px">
 									</div>
 								</div>
                             </div>
@@ -222,39 +222,16 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/ccfi.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/ccfi.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/citi-peka.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/citi-peka.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/dompet-dhuafa.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/dompet-dhuafa.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/eka-tjipta.png" width="100px" height="100px">
-									</div>
-								</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-								<div class="row">
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/FI.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/habitat-for-humanity.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/ibl.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/ika.png" width="100px" height="100px"></th>
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/eka-tjipta.png" width="100px" height="100px">
 									</div>
 								</div>
                             </div>
@@ -268,39 +245,16 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/insan-bumi-mandiri.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/FI.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/islamic-relief.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/habitat-for-humanity.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/kemitraan.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/ibl.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/laz-harfa.png" width="100px" height="100px">
-									</div>
-								</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-								<div class="row">
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/lazismu.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/lksfi-uhamka.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/lp3es.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto"src="<?php echo base_url('')?>assets/depan/img/anggota/mien-r-uno.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/ika.png" width="100px" height="100px"></th>
 									</div>
 								</div>
                             </div>
@@ -314,39 +268,16 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/nucare-lazisnu.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/insan-bumi-mandiri.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/peduli-sehat.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/islamic-relief.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/pirac.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/kemitraan.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/depan/img/anggota/pkbi.png" width="100px" height="100px">
-									</div>
-								</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-								<div class="row">
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/pkm.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/pkpu-human-initiative.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/plan-international.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/depan/img/anggota/pshk.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/laz-harfa.png" width="100px" height="100px">
 									</div>
 								</div>
                             </div>
@@ -360,39 +291,16 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/putera-sampoerna.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/lazismu.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/ronald-mcdonald-house-charities.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/lksfi-uhamka.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/rumah-energi.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/lp3es.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/rumah-faye.png" width="100px" height="100px">
-									</div>
-								</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-								<div class="row">
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/rumah-zakat.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto"src="<?php echo base_url('')?>assets/depan/img/anggota/second-chance.png" width="100px" height="100px"></th>
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/sekolah-relawan.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/social-trust-fund-uin.png" width="100px" height="100px">
+										<img class="d-block mx-auto"src="<?php echo base_url('')?>assets/img/anggota/mien-r-uno.png" width="100px" height="100px">
 									</div>
 								</div>
                             </div>
@@ -406,16 +314,16 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/stc-sayangi-tunas-cilik.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/nucare-lazisnu.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/tanoto.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/peduli-sehat.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/the-nature-conservancy.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/pirac.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/tifa.png" width="100px" height="100px">
+										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/img/anggota/pkbi.png" width="100px" height="100px">
 									</div>
 								</div>
                             </div>
@@ -429,16 +337,108 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/unicef.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/pkm.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/wadah-foundation.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/pkpu-human-initiative.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/water.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/plan-international.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/william-and-lily-foundation.png" width="100px" height="100px">
+										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/img/anggota/pshk.png" width="100px" height="100px">
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/putera-sampoerna.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/ronald-mcdonald-house-charities.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/rumah-energi.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/rumah-faye.png" width="100px" height="100px">
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/rumah-zakat.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto"src="<?php echo base_url('')?>assets/img/anggota/second-chance.png" width="100px" height="100px"></th>
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/sekolah-relawan.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/social-trust-fund-uin.png" width="100px" height="100px">
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/stc-sayangi-tunas-cilik.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/tanoto.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/the-nature-conservancy.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/tifa.png" width="100px" height="100px">
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/unicef.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/wadah-foundation.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/water.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/william-and-lily-foundation.png" width="100px" height="100px">
 									</div>
 								</div>
                             </div>
@@ -454,39 +454,16 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/wvi.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/wvi.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yappika-action-aid.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yappika-action-aid.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-adaro-bangun-negeri.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-adaro-bangun-negeri.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-bakti-kita.png" width="100px" height="100px">
-									</div>
-								</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-								<div class="row">
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-belantara.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-bina-swadaya.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-buddha-tzu-chi.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto"   src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-care.png" width="100px" height="100px">
+										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/img/anggota/yayasan-bakti-kita.png" width="100px" height="100px">
 									</div>
 								</div>
                             </div>
@@ -500,39 +477,16 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-cipta-cara-padu.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-belantara.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-danamon-peduli.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-bina-swadaya.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-gnota.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-buddha-tzu-chi.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-indocement.png" width="100px" height="100px">
-									</div>
-								</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-								<div class="row">
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-institut-danone.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-kalla.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-kehati.png" width="100px" height="100px">
-									</div>
-									<div class="col-md-3">
-										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-kelola.png" width="100px" height="100px">
+										<img class="d-block mx-auto"   src="<?php echo base_url('')?>assets/img/anggota/yayasan-care.png" width="100px" height="100px">
 									</div>
 								</div>
                             </div>
@@ -546,16 +500,62 @@
                             <div class="col-md-12">
 								<div class="row">
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-maramowe.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-cipta-cara-padu.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-mitra-mandiri.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-danamon-peduli.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-sukma.png" width="100px" height="100px">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-gnota.png" width="100px" height="100px">
 									</div>
 									<div class="col-md-3">
-										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/depan/img/anggota/yayasan-tahija.png" width="100px" height="100px">
+										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/img/anggota/yayasan-indocement.png" width="100px" height="100px">
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-institut-danone.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-kalla.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-kehati.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/img/anggota/yayasan-kelola.png" width="100px" height="100px">
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+								<div class="row">
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-maramowe.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-mitra-mandiri.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto" src="<?php echo base_url('')?>assets/img/anggota/yayasan-sukma.png" width="100px" height="100px">
+									</div>
+									<div class="col-md-3">
+										<img class="d-block mx-auto"  src="<?php echo base_url('')?>assets/img/anggota/yayasan-tahija.png" width="100px" height="100px">
 									</div>
 								</div>
                             </div>
