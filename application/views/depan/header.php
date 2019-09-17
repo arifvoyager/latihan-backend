@@ -70,9 +70,9 @@
 						<a class="nav-link" data-toggle="dropdown">Tentang Kami</a>
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/sejarah">Sejarah</a></li>
-							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/depan/visimisi">Visi & Misi</a></li>
-							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/depan/tujuan">Tujuan & Prinsip</a></li>
-							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/depan/siapakami">Siapa Kami</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/visimisi">Visi & Misi</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/home/tujuan">Tujuan & Prinsip</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/home/siapakami">Siapa Kami</a></li>
 							<li><a class="dropdown-item" href="#">Mitra</a></li>
 							<div class="dropdown-divider"></div>
 						</ul>
