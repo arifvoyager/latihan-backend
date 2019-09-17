@@ -71,8 +71,8 @@
 						<ul class="dropdown-menu">
 							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/sejarah">Sejarah</a></li>
 							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/visimisi">Visi & Misi</a></li>
-							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/home/tujuan">Tujuan & Prinsip</a></li>
-							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/home/siapakami">Siapa Kami</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/tujuan">Tujuan & Prinsip</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/siapakami">Siapa Kami</a></li>
 							<li><a class="dropdown-item" href="#">Mitra</a></li>
 							<div class="dropdown-divider"></div>
 						</ul>
@@ -80,7 +80,7 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link" data-toggle="dropdown">Anggota</a>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/depan/keanggotaan">Keanggotaaan</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/keanggotaan">Keanggotaaan</a></li>
 							<li><a class="dropdown-item" href="#">Organisasi</a></li>
 							<div class="dropdown-divider"></div>
 						</ul>
@@ -90,8 +90,8 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link" data-toggle="dropdown">Berita</a>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/depan/berita">Berita Internal</a></li>
-							<li><a class="dropdown-item" href="<?php echo site_url('') ?>/depan/luar">Berita Luar</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/berita">Berita Internal</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/luar">Berita Luar</a></li>
 							<div class="dropdown-divider"></div>
 						</ul>
 				
@@ -101,9 +101,9 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link" data-toggle="dropdown">Sumber Informasi</a>
 						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">Galeri</a></li>
-							<li><a class="dropdown-item" href="#">Standar & Pedoman</a></li>
-							<li><a class="dropdown-item" href="#">Peta Filantropi</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/galeri">Galeri</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/pedoman">Standar & Pedoman</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/peta">Peta Filantropi</a></li>
 							<div class="dropdown-divider"></div>
 						</ul>
 				
@@ -111,16 +111,16 @@
 
 
 				<li class="nav-item">
-					<a class="nav-link" href="<?php echo site_url('') ?>/depan/khazanah">Khazanah<span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="<?php echo site_url('') ?>index.php/home/khazanah">Khazanah<span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="<?php echo site_url('') ?>/depan/acara">Acara<span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="<?php echo site_url('') ?>index.php/home/acara">Acara<span class="sr-only">(current)</span></a>
 				</li>
 			</ul>
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item dropdown">
-				<li class="nav-item"><a class="nav-link" href="<?php echo site_url('') ?>/depan/registrasi" class="hover-white">Registrasi</a></li>
-				<li class="nav-item"><a class="nav-link" href="<?php echo site_url('') ?>/depan/login" class="hover-white">Masuk</a></li>
+				<li class="nav-item"><a class="nav-link" href="<?php echo site_url('') ?>index.php/home/registrasi" class="hover-white">Registrasi</a></li>
+				<li class="nav-item"><a class="nav-link" href="<?php echo site_url('') ?>index.php/home/login" class="hover-white">Masuk</a></li>
 				<li class="nav-item dropdown">
 					<a class="nav-link" href="#" class="hover-white nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 						<img src="<?php echo base_url('') ?>assets/img/flag/flag_indonesia.png" style="width:23px;height:13px;">

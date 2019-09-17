@@ -99,5 +99,33 @@ class Home extends CI_Controller{
 		$this->load->view("depan/tujuan");
 		$this->load->view("depan/footer");
 	}
+
+	public function visimisi()
+	{
+		$this->load->view("depan/header");
+		$this->load->view("depan/visimisi");
+		$this->load->view("depan/footer");
+	}
+
+	public function galeri()
+	{
+		$this->load->view("depan/header");
+		$this->load->view("depan/galeri");
+		$this->load->view("depan/footer");
+	}
+
+	public function pedoman()
+	{
+		$this->load->view("depan/header");
+		$this->load->view("depan/pedoman");
+		$this->load->view("depan/footer");
+	}
+
+	public function peta()
+	{
+		$this->load->view("depan/header");
+		$this->load->view("depan/peta");
+		$this->load->view("depan/footer");
+	}
 }
 
