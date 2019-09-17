@@ -127,5 +127,12 @@ class Home extends CI_Controller{
 		$this->load->view("depan/peta");
 		$this->load->view("depan/footer");
 	}
+
+		public function mitra()
+	{
+		$this->load->view("depan/header");
+		$this->load->view("depan/mitra");
+		$this->load->view("depan/footer");
+	}
 }
 

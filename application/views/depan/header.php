@@ -73,7 +73,7 @@
 							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/visimisi">Visi & Misi</a></li>
 							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/tujuan">Tujuan & Prinsip</a></li>
 							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/siapakami">Siapa Kami</a></li>
-							<li><a class="dropdown-item" href="#">Mitra</a></li>
+							<li><a class="dropdown-item" href="<?php echo site_url('') ?>index.php/home/mitra">Mitra</a></li>
 							<div class="dropdown-divider"></div>
 						</ul>
 				</li>
