@@ -18,18 +18,16 @@
 				</div>
 
 				<div class="col-md-5">
-					<p style="text-align: justify; text-justify: inter-word;">
+					<!-- <p style="text-align: justify; text-justify: inter-word;">
 						Lahirnya Perhimpunan Filantropi Indonesia berawal dari prakarsa sejumlah individu dan lembaga/organisasi nirlaba yang sejak 2003 merintis jaringan Prakarsa Penguatan Filantropi di Indonesia, dan telah sepakat untuk melanjutkan dan melembagakan kegiatan bersama mereka dalam suatu wadah perkumpulan.
 					</p>
 					<p style="text-align: justify; text-justify: inter-word;">
 						Perhimpunan Filantropi Indonesia (PFI) adalah lembaga nirlaba dan mandiri yang dimaksudkan untuk memajukan filantropi di Indonesia agar bisa berkontribusi dalam pencapaian keadilan sosial dan pembangunan berkelanjutan. PFI berawal dari prakarsa sejumlah individu dan lembaga/organisasi nirlaba yang sejak 2003 merintis jaringan `Prakarsa Penguatan Filantropi` di Indonesia, dan telah sepakat untuk melanjutkan dan melembagakan kegiatan bersama mereka dalam suatu wadah perkumpulan yang bersifat nirlaba dan mandiri. PFI dimaksudkan untuk memajukan kepentingan para pelaku filantropi, baik yang berasal dari sektor pemberi, pengelola/penyalur/perantara (intermediary), maupun penerima bantuan, atas dasar prinsip kemitraan, kesetaraan, keberagaman, keadilan, universalitas filantropi dan kebangsaan Indonesia.
-					</p>
-
-
-
+					</p> -->
+					<p style="text-align: justify; text-justify: inter-word;"><?= $sejarah->posts_content ?></p>
 				</div>
 			</div>
-			<div style="margin-top:24px">
+			<!-- <div style="margin-top:24px">
 
 				<center>
 					<h3 class="wow bounceInUp clearfix">
@@ -54,13 +52,8 @@
 					<i class="fa fa-3x fa-location-arrow" style="color: #28a745; margin-right: 12px"></i>
 					<p style="text-align: justify; text-justify: inter-word;">Bahwa upaya mengembangkan potensi filantropi bagi pembangunan berkelanjutan di Indonesia tidak mungkin dilakukan oleh orang-perseorangan, maupun oleh satu dua kelompok atau organisasi saja. Tantangan masalah yang terlalu besar, belum adanya infrastruktur kelembagaan and kebijakan uang mendukung, semua itu mendorong perlu adanya usaha-usahan yagn efektif dan terarah dari berbagai komponen pelaku dan pendukung filantropi di Indonesia untuk menghimpun, menyatukan dan memperkuat gerak langkah bersama masyarakat sipil dalam menghadapai tantangan pembangunan sosial, kemanusiaan dan lingkungan di negeri ini.</p>
 				</div>
-			</div>
+			</div> -->
 		</div>
-
-
-
-
-
 
 		<div class="col-md-2">
 			<div class="row">

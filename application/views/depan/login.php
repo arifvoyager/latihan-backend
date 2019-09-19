@@ -21,13 +21,13 @@
 
 
 			   <!-- Login Form -->
-				 <form id='loginForm' action="#" class="row mt-3">
-				 
+				 <form method="post" action="<?= site_url('member/dologin') ?>" class="row mt-3">
+				   <h6 class="text-danger text-center"> <b><?= $this->session->flashdata('msg'); ?></b> </h6>
 				   <div class="input-group">
 					 <div class="input-group-prepend">
 					   <span class="input-group-text"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
 					 </div>
-					 <input type="text" name="email" class="form-control" placeholder="email">
+					 <input autocomplete="off" type="text" class="form-control" id="member_username" placeholder="<?php echo GET_LABEL('PLACEHOLDER_USERNAME', $LANG['code']); ?>" name="member_username">
 				   </div>
 
 				   <div class="input-group mt-2 mb-3">
@@ -35,18 +35,18 @@
 					   <span class="input-group-text">
 					   <i class="fa fa-unlock" aria-hidden="true"></i></span>
 					 </div>
-					 <input type="password" name="password" class="form-control" placeholder="password">
+					 <input type="password" class="form-control" id="member_password" placeholder="<?php echo GET_LABEL('PLACEHOLDER_PASSWORD', $LANG['code']); ?>" name="member_password">
 				   </div>
 
 				   <div class="col-md-6 p-0">
-					   <button class="btn btn-success">Masuk!</button>
+					   <button type="submit" class="btn btn-success">Masuk!</button>
 				   </div>
-				   <!-- <div class="col-md-6 p-0 text-right">
-					 <span>
-					   <a href="#">Forgot password?</a>
-					 </span>
-				   </div> -->
 
+					<div class="form-group clearfix">
+						<div class="checkbox-custom checkbox-inline pull-left">
+						</div>
+						<a class="pull-right" href="<?php echo base_url("jpanel/cpanelx/resetpassword"); ?>"><?php echo GET_LABEL('LABEL_FORGOT_PASSWORD', $LANG['code']); ?></a>
+					</div>
 				 </form>
 			   <!-- ./Login Form -->
 			 </div>
@@ -59,22 +59,3 @@
 	</div>
   </div>
 </div>
-<table>
-<tr>
-<th>
-</th>
-<th>
-		  </div>
-
-	  </div>
-	</div>
-  </div>
-
-  </div>
-<!--    </section>
--->           </div>
-  </div>
-</main>
-</th>
-</tr>
-</table>

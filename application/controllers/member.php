@@ -167,18 +167,25 @@ class Member extends CI_Controller {
                     
                     $this->session->set_userdata('sess_member_fi', $sess_member_fi);
                     
-                    $result         = 'login_success';
+                    // $result         = 'login_success';
+                    redirect('member');
                 } else {
-                    $result         = 'not_match_login';
+                    // $result         = 'not_match_login';
+                    $this->session->set_flashdata('msg', "Username Atau Password Salah");
+                    redirect('home/login');
                 }
             } else {
-                $result             = 'not_activated_member';
+                // $result             = 'not_activated_member';
+                $this->session->set_flashdata('msg', "Member Tidak Aktif");
+                redirect('home/login');
             }
         } else {
-            $result             = 'not_exist_member';
+            // $result             = 'not_exist_member';
+            $this->session->set_flashdata('msg', "Member Tidak Terdaftar");
+            redirect('home/login');
         }
         
-        echo $result;
+        // echo $result;
     }
     
     public function register() {

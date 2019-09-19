@@ -46,9 +46,15 @@ class Home extends CI_Controller{
 
 	public function login()
 	{
-		$this->load->view("depan/header");
-		$this->load->view("depan/login");
-		$this->load->view("depan/footer");
+		if($this->session->userdata('sess_member_fi') == false){
+			$data['LANG']	= GET_CURRENT_LANG();
+			
+			$this->load->view("depan/header");
+			$this->load->view("depan/login", $data);
+			$this->load->view("depan/footer");
+		}else{
+			redirect('member');
+		}
 	}
 
 	public function acara()
@@ -81,8 +87,10 @@ class Home extends CI_Controller{
 
 	public function sejarah()
 	{
+		$data['sejarah'] = $this->db->order_by('posts_uid', 'DESC')->get_where('cd_posts', ['posts_title'=>'Sejarah'])->row();
+		
 		$this->load->view("depan/header");
-		$this->load->view("depan/sejarah");
+		$this->load->view("depan/sejarah", $data);
 		$this->load->view("depan/footer");
 	}
 
