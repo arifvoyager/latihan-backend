@@ -16,7 +16,7 @@
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/filantropi/';
+$config['base_url'] = 'http://localhost/test/';
 
 /*
 |--------------------------------------------------------------------------
